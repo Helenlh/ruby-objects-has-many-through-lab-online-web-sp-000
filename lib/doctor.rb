@@ -33,7 +33,7 @@ class Doctor
 
     def patients
       self.appointments.map do |appointment|
-      #self in this case pertais to a specific doctor
+      #self in this case pertains to a specific doctor
       appointment.patient
     end
   end 
